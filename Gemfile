@@ -5,12 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 
 
-group :production do
-	gem 'pg'
-end
-
 group :development, :test do
-	gem 'sqlite3'
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
 end
 
 gem 'sass-rails', '~> 5.0'
