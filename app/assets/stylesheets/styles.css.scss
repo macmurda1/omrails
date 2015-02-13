@@ -1,4 +1,4 @@
-$btnPrimaryBackground: green;
+
 @import 'bootstrap';
 
 body {
@@ -11,6 +11,10 @@ body {
 	a {
 		color: $gray;
 	}
+}
+
+.form-horizontal {
+	width: 300px;
 }
 
 
